@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f6005c; /* Myntra's brand color */
+}
+
+.hero .nav {
+    display: flex;
+    gap: 20px;
+}
+
+.hero .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero .profile-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.hero .profile-actions a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero .profile-actions a:hover {
+    color: #f6005c;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.main-content p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.main-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f6005c;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-content .btn:hover {
+    background-color: #d4004b;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Space between images */
+    margin: 20px 0;
+}
+
+.categories .category {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Maximum width for larger images */
+    border-radius: 10px;
+}
+
+.categories .category img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.categories .category-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.show-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f1c40f; /* Yellow color */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.show-btn:hover {
+    background-color: #f39c12; /* Darker yellow color on hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    color: #777;
+}
